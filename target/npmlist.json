@@ -1,0 +1,1 @@
+{"version":"1.0.0","name":"web-server","dependencies":{"express":{"version":"5.0.0-alpha.8"},"handlebars":{"version":"4.7.7"},"hbs":{"version":"4.2.0"},"nodemon":{"version":"2.0.15"},"request":{"version":"2.88.2"}}}
