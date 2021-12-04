@@ -19,7 +19,17 @@ weatherForm.addEventListener('submit', (e) => {
 				messageOne.textContent = data.error;
 			} else {
 				messageOne.textContent = data.location;
-				messageTwo.textContent = data.forecast.weather;
+				messageTwo.textContent =
+					'The current weather is ' +
+					data.forecast.weather +
+					'. It is currently ' +
+					data.forecast.temperature +
+					' degrees outside.' +
+					' This high today is ' +
+					data.forecast.temphigh +
+					' with a low of ' +
+					data.forecast.templow +
+					'.';
 			}
 		});
 	});

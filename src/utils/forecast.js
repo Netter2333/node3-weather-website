@@ -20,6 +20,8 @@ const forecast = (latitude, longitude, callback) => {
 				weather: weather_data.description,
 				temperature: main_data.temp,
 				feelslike: main_data.feels_like,
+				temphigh: main_data.temp_max,
+				templow: main_data.temp_min,
 			});
 		}
 	});
